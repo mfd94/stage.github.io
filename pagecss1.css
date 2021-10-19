@@ -1,0 +1,45 @@
+body{
+     background-color: orange;
+     font-size:12px ;
+     font-family: verdana,arial;
+ }
+h1{
+	color: blue;
+}
+.s1{
+	font-size: large;
+	color: green;
+	text-align: justify;
+	border: 2px solid green;
+
+}
+h2{
+	color:red;
+}
+
+ul{
+	color: pink;
+}
+.s2{
+	font-size: large;
+	color: red;
+	text-align: right;
+	background-color: green;
+	border:2px solid blue;
+	border-bottom-color: pink;
+	border-top-color:red;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+
+a{
+    size:12px;
+	color: pink;
+}
+a:hover{
+	color:yellow;
+}
+a:

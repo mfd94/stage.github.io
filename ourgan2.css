@@ -1,0 +1,55 @@
+code{
+	background: red;
+	color:  #fff;
+	font-family: arial;
+	font-size: 2rem;
+	border: 2px solid #060bfa;
+	display: block;
+	text-align: center;
+}
+.a{
+	float: left;
+	width: 30%;
+	height: 400px;
+	border: 2px solid #060bfa;
+	border-radius: 5px;
+	background-color: blue;
+
+}
+
+.b{
+	float: left;
+	width: 30%;
+	height: 400px;
+	border: 2px solid #060bfa;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.c{
+	float: left;
+	width: 30%;
+	height: 400px;
+	border: 2px solid #060bfa;
+	border-radius: 5px;
+	background-color: black;
+}
+header, section{
+		margin: 20px 29px 2rem;
+}
+footer, a{
+	clear:both;
+}
+.article1{
+	color: yellow;
+	background-color: orange;
+
+}
+.article2{
+	color: red;
+	background-color: yellow;
+}
+img{
+	width: 100%;
+	height: 89%;
+}

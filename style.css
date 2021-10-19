@@ -1,0 +1,57 @@
+body{
+	background: url("nb.jpg") no-repeat;
+	background-size: 100%;
+}
+
+code{
+	background: #73bcec;
+	color: #ffffff;
+	font-size: 2rem;
+	font-family: Arial;
+	text-align: center;
+	border: 2px solid #060bfa;
+	border-radius: 6px;
+    display: block;
+}
+
+section{
+
+	float: left;
+	width: 25%;
+	height:300px;
+	border: 6px solid #060bfa;
+	border-radius: 6px;
+    text-align: center;
+    padding: 10px 0px;
+    
+    
+    
+}
+header,section{
+
+	margin:0 1.2% 24px 1.5%;
+}
+footer{
+   clear: both;
+}
+
+.p1{
+	color: blue;
+    background-color: orange;
+    text-align: justify;
+}
+
+.p2{
+	color: red;
+	background-color: green;
+	text-align: justify;
+}
+.s1{
+	background-color: orange;
+}
+.s2{
+	background-color: green;
+}
+.s3{
+	background-color: red;
+}

@@ -1,0 +1,138 @@
+body{
+
+	background-color: black;
+}
+
+.page{
+	background-image: url(cv1.jpg);
+	background-size: 100%;
+	border: 5px solid red;
+	border-radius: 10px;
+	width: 780px;
+	height: 1300px;
+	font-size: 20px;
+	margin: auto;
+	box-shadow: 2px 4px 3px black;
+	padding: 20px;
+
+}
+.entete{
+	border: 0px solid;
+	width: 90%;
+	height: 250px;
+	padding: 15px;
+
+
+}
+.infos{
+	border: 0px solid;
+	float: left;
+	padding: 20px;
+
+}
+.photo{
+	border: 0px solid;
+	float: right;
+	margin: 1px;
+	height: 250px;
+
+
+}
+.formation{
+   border: 0px solid;
+	width: 90%;
+	height: 150px;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+.date{
+	border: 0px solid;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.dp{
+	border: 0px solid;
+	float: center;
+	font-size: 15px;
+	padding: 5px;
+	padding-left: 150px;
+}
+.exp{
+	width: 90%;
+	height: 90px;
+	border: 0px solid;
+	margin-top: 20px;
+	padding: 20px
+}
+.date2{
+	border: 0px solid;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.texte2{
+	border: 0px solid;
+	float: center;
+	font-size: 13.5px;
+	padding: 5px;
+	padding-left: 150px;
+}
+.langue{
+	border: 0px solid;
+	width: 90%;
+	height: 120px;
+	margin-top: 20px;
+	padding: 20px
+}
+.lg{
+	border: 0px solid;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.lg2{
+
+	border: 0px solid;
+	float: center;
+	font-size: 13.5px;
+	padding: 5px;
+	padding-left: 95px;
+}
+.sp{
+	border: 0px solid;
+	width: 90%;
+	height: 120px;
+	margin-top: 20px;
+	padding: 20px
+}
+.sp1{
+	border: 0px solid;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.sp2{
+	border: 0px solid;
+	float: center;
+	font-size: 13.5px;
+	padding: 5px;
+	padding-left: 125px;
+}
+h2{
+	text-decoration: underline;
+	color: royalblue;
+	margin-top: 40px;
+
+}
+
+.p1{
+
+	font-size: 20px;
+	color: orangered;
+}
+
+.p2{
+	font-size: 20px;
+}

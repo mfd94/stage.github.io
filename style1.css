@@ -1,0 +1,34 @@
+table{
+	border:3px solid #6495ed;
+	width: 30%;
+	margin: auto;
+	background-color: #D0E3FA;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 2em;
+	text-align: center;
+	margin: 20px;
+}
+tr{
+	height: 50px;
+
+}
+th{
+	font-family: Verdana;
+	font-size: 1em;
+	text-align: center;
+	border: 1px solid #000099;
+	background-image: url(nuage.jpg);
+
+}
+
+
+td{
+  border: 1px solid #6495ed;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 1em;
+
+}

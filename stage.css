@@ -1,0 +1,19 @@
+body{
+	background-color: dimgray;
+}
+
+
+
+.stg{
+
+	font-size: 1.9em;
+	color: red;
+
+}
+
+.mail{
+	color: white;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 250px;
+}

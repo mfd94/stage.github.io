@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    
+</head>
+
+<script type="text/javascript">
+ function calculate(){
+
+//colonne 1
+var a=parseInt(document.getElementById("one").value);
+var b=parseInt(document.getElementById("two").value);
+var c=parseInt(document.getElementById("three").value);
+//colonne 2
+var d=parseInt(document.getElementById("one1").value);
+var e=parseInt(document.getElementById("two1").value);
+var f=parseInt(document.getElementById("three1").value);
+//colonne 3
+var g=parseInt(document.getElementById("one2").value);
+var h=parseInt(document.getElementById("two2").value);
+var i=parseInt(document.getElementById("three2").value);
+
+//Calcule Col1
+document.getElementById("total").value=(b*c);
+//Calcule Col2
+document.getElementById("total1").value=(e*f);
+//Calcule Col3
+document.getElementById("total2").value=(h*i);
+//Calcule Total
+document.getElementById("total5").value=(b*c+e*c+h*i);
+}
+</script>
+
+<body>
+
+<table border=2px>
+<tr>
+  <td>Produit :</td>
+  <td>Prix:</td>
+  <td>Quantité</td>
+  <td>Total</td>
+</tr>
+
+<tr>
+  <td><input id="one" type="text" name="one"></td>
+  <td><input id="two" type="text" name="two"></td>
+  <td><input id="three" type="text" name="three"></td>
+  <td><input id="total" type="text" name="total"></td>
+</tr>
+
+<tr>
+  <td><input id="one1" type="text" name="one1"></td>
+  <td><input id="two1" type="text" name="two1"></td>
+  <td><input id="three1" type="text" name="three1"></td>
+  <td><input id="total1" type="text" name="total1"></td>
+</tr>
+<tr>
+  <td><input id="one2" type="text" name="one2"></td>
+  <td><input id="two2" type="text" name="two2"></td>
+  <td><input id="three2" type="text" name="three2"></td>
+  <td><input id="total2" type="text" name="total2"></td>
+</tr>
+<tr>
+     <td><input onclick="calculate()" type="button" value="Calculer"></td>
+     <td></td>
+    <td></td>
+    <td><input id="total5" type="text" name="total5"></td>
+   
+</tr>
+    </table>
+
+</body>
+</html>

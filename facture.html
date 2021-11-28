@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facture</title>
+	<link rel="stylesheet" type="text/css" href="facture1.css">
+  <script type="text/javascript" src="facture.js"></script>
+
+    
+ 
+</head>
+<body>
+
+<div class="page">
+<div class="entete">
+</div>
+<div class="gris">
+ <p>Nom de la Compagnie<br>
+ Adresse Postale<br>
+ Détail du contact<br>
+ </p>
+
+ <div class="droite">
+        <table>
+          <tr>
+            <td width="160px"><span class="titre"><b>FACTURE<b></span></td>
+          </tr>
+          <tr>
+            <td class=text_area><br><input type="text" name="date" id="date" placeholder="jj/mm/aaaa"></td>
+          </tr>
+          <tr>
+            <td class=text_area><br><input type="text" name="n_facture" id="n_facture" placeholder="N° de facture"></td>
+          </tr>
+        </table>
+      </div>   
+  <img src="logo.png">
+</div>
+
+ <div class="destinataire">
+   <input type="text" name="nom" placeholder="Nom"><br>
+   <input type="text" name="nom" placeholder="Nom de la societe"><br>
+   <input type="text" name="nom" placeholder="Adresse Postale"><br>
+   <input type="text" name="nom" placeholder="Téléphone"><br>
+   <input type="text" name="nom" placeholder="Email"><br>
+ </div>
+
+ <div class="envoyez">
+  <input type="text" name="nom" placeholder="Nom"><br>
+   <input type="text" name="nom" placeholder="Nom de la societe"><br>
+   <input type="text" name="nom" placeholder="Adresse Postale"><br>
+   <input type="text" name="nom" placeholder="Téléphone"><br>
+   <input type="text" name="nom" placeholder="Email"><br>
+ </div>
+
+<div class="calcul">
+<table class="tableau1" border="1">
+<tr class="ligne">
+<td>Description :</td>
+  <td>Quantité</td>
+  <td>Prix Unitaire</td>
+  <td>Total</td>
+</tr>
+
+</tr>
+
+<tr>
+  <td class="cl1"><input class="cl1"  id="one" type="text" name="one" ></td>
+  <td class="cl1"><input  class="cl1" id="two" type="text" name="two" ></td>
+  <td class="cl1"><input class="cl1" id="three" type="text" name="three"></td>
+  <td class="cl1"><input  class="cl1" id="total" type="text" name="total" value="0.00" readonly="readonly"></td>
+</tr>
+
+<tr>
+  <td><input class="cl2" id="one1" type="text" name="one1"></td>
+  <td><input class="cl2" id="two1" type="text" name="two1"></td>
+  <td><input class="cl2" id="three1" type="text" name="three1"></td>
+  <td><input class="cl2" id="total1" type="text" name="total1" value="0.00" readonly="readonly"></td>
+</tr>
+<tr>
+  <td class="cl1"><input class="cl1" id="one2" type="text" name="one2"></td>
+  <td class="cl1"><input class="cl1" id="two2" type="text" name="two2"></td>
+  <td class="cl1"><input class="cl1" id="three2" type="text" name="three2"></td>
+  <td class="cl1"><input class="cl1" id="total2" type="text" name="total2" value="0.00" readonly="readonly"></td>
+</tr>
+   
+</tr>
+<tr>
+  <td><input class="cl2" id="one3" type="text" name="one3"></td>
+  <td><input class="cl2" id="two3" type="text" name="two3"></td>
+  <td><input class="cl2" id="three3" type="text" name="three3"></td>
+  <td><input class="cl2" id="total3" type="text" name="total3" value="0.00" readonly="readonly"></td>
+</tr>
+<tr>
+  <td class="cl1"><input class="cl1" id="one4" type="text" name="one4"></td>
+  <td class="cl1"><input class="cl1" id="two4" type="text" name="two4"></td>
+  <td class="cl1"><input class="cl1" id="three4" type="text" name="three4"></td>
+  <td class="cl1"><input class="cl1" id="total4" type="text" name="total4" value="0.00" readonly="readonly"></td>
+</tr>
+<tr>
+  <td><input class="cl2" id="one5" type="text" name="one5"></td>
+  <td><input class="cl2" id="two5" type="text" name="two5"></td>
+  <td><input class="cl2" id="three5" type="text" name="three5"></td>
+  <td><input class="cl2" id="total5" type="text" name="total5" value="0.00" readonly="readonly"></td>
+</tr>
+<tr>
+  <td class="cl1"><input class="cl1" id="one6" type="text" name="one6"></td>
+  <td class="cl1"><input class="cl1" id="two6" type="text" name="two6"></td>
+  <td class="cl1"><input class="cl1" id="three6" type="text" name="three6" ></td>
+  <td class="cl1"><input class="cl1" id="total6" type="text" name="total6" value="0.00" readonly="readonly"></td>
+</tr>
+<tr>
+  <td><input class="cl2" id="one7" type="text" name="one7"></td>
+  <td><input class="cl2" id="two7" type="text" name="two7"></td>
+  <td><input class="cl2" id="three7" type="text" name="three7"></td>
+  <td><input class="cl2" id="total7" type="text" name="total7" value="0.00" readonly="readonly"></td>
+</tr>
+<tr>
+  <td class="cl1"><input class="cl1" id="one8" type="text" name="one8"></td>
+  <td class="cl1"><input class="cl1" id="two8" type="text" name="two8"></td>
+   <td class="cl1"><input class="cl1" id="three8" type="text" name="two8"></td>
+  <td class="cl1"><input class="cl1" id="total8" type="text" name="total8" value="0.00" readonly="readonly"></td>
+
+</tr>
+<tr>
+<td><input class="cl2" id="one9" type="text" name="one9"></td>
+   <td><input class="cl2" id="two9" type="text" name="two9"></td>
+   <td><input class="cl2" id="three9" type="text" name="threel9"></td>
+   <td><input class="cl2" id="total9" type="text" name="total9" value="0.00"readonly="readonly"></td>
+</tr>
+ 
+    </table>
+
+  <table class="tableau2">
+    <tr>
+   <td class="droit">SOUS-TOTAL :<input class="cl2" id="sous" type="text" name="sous" value="0.00"  ></td>
+  </tr>
+
+  <tr>
+  <td class="droit">REMISE :<input class="cl2" id="remise" type="text" name="remise" value="0.00" ></td>
+ </tr>
+
+ <tr>
+  <td class="droit">SOUS-TOTAL MOINS LES REMISES :<input class="cl2" id="sousmr" type="text" name="sousmr" value="0.00" readonly="readonly"></td>
+ </tr>
+
+  <tr>
+  <td class="droit">TAUX D'IMPOSITION :<input class="cl2" id="impot" type="text" name="impot" value="0.00%" ></td>
+ </tr>
+
+ <tr>
+  <td class="droit">TAXE TOTALE :<input class="cl2" id="taxetotal" type="text" name="taxetotal" value="0.00" readonly="readonly"></td>
+ </tr>
+
+ <tr>
+  <td class="droit">MANUTENTION :<input class="cl2" id="manu" type="text" name="manu" value="0.00"></td>
+ </tr>
+
+ <tr>
+  <td class="solde1">SOLDE DU :<input class="cl2" id="solde1" type="text" name="solde1" value="0.00" readonly="readonly"></td>
+ </tr>
+
+
+
+</table>
+
+
+<input type="button" value="Calculer" onclick="calculate()">
+        <input type="reset" value="Annuler">
+        <input type="button" value="Code Source" onclick="access()">
+
+</div>
+</div>
+</div>
+</body>
+</html>
